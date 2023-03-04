@@ -169,7 +169,7 @@
     height: 300px;
     display: flex;
     justify-content: space-between;
-    padding-top: 15%;
+    padding-top: 10%;
     margin: 0 auto;
 }
 
@@ -221,20 +221,20 @@
 }
 /* ======= SECTION DESIGN END ======= */
 
-/* ======= SECTION ABOUT US START ======= */
+/* ======= SECTION ABOUT ME START ======= */
 
 #section__about__me {
     width: 100%;
-    height: 700px;
+    height: 400px;
     background-color: #F9F9F9;
 }
 
 .about__me {
     width: 520px;
-    height: 147px;
+    height: 100px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 7%;
     
 }
 
@@ -253,19 +253,21 @@
     color: #727272;
     margin-top: 5%;
 }
+/* ======= SECTION ABOUT ME END ======= */
 
-.container__icons {
+
+/* ======= SECTION ICONS START ======= */
+#section__icons {
     width: 100%;
-    height: 234px;
+    height: 234px; 
     background-color: #34547A;
-    margin-top: 20%;
 }
 
 .project__icons {
     width: 80%;
     height: 50px;
     margin: 0 auto;
-    padding-top: 7%;
+    padding-top: 6%;
     display: flex;
     justify-content: space-between;
 }
@@ -298,13 +300,13 @@
     color: #FFFFFF;
     margin-top: 12%;
 }
-/* ======= SECTION ABOUT US END ======= */
+/* ======= SECTION ICONS END ======= */
 
 
 /* ======= SECTION SKILLS START ======= */
 
 #section__skills {
-    margin-top: -3%;
+    /* margin-top: -3%; */
     width: 100%;
     height: 653px;
     background: #F9F9F9;
@@ -403,6 +405,36 @@
     margin-top: 12%;
 }
 /* ======== SECTION WORK END ========= */
+
+/* ======= SECTION PHOTOS START ======= */
+
+#section__photos {
+    width: 100%;
+    height: 960px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    /* overflow-x: scroll; */
+    white-space: nowrap;
+}
+
+.wall__photos {
+    width: 50%;
+    display: flex;
+    /* flex-wrap: wrap;
+    /* white-space: nowrap; */
+    /* overflow-x: scroll;  */
+}
+.wall__photos2 {
+    width: 50%;ээю          
+    display: flex;
+}
+
+.picture {
+    width: 360px;
+    height: 360px; 
+}
+
 
 
 
